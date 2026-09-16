@@ -59,4 +59,12 @@ public class Produto {
 		this.id = id;
 	}
 
+	@Override
+	public String toString() {
+		return "id: " + id + ", nome: " + nome + ", quantidade: " + quantidade + ", preco: " + String.format("%.2f", preco) + ", status: "
+				+ status;
+	}
+	
+	
+
 }
