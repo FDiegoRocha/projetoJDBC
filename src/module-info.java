@@ -9,5 +9,5 @@ module AulaBancodeDados {
 	requires javafx.controls;
     requires javafx.fxml;
 
-    opens projetoJDBC to javafx.graphics, javafx.fxml, javafx.controls;
+    opens projetoJDBC;
 }
